@@ -21,6 +21,10 @@ const Navigation = () => {
       label: 'profile',
       url: '/profile',
     },
+    {
+      label: 'auth',
+      url: '/auth',
+    },
   ];
 
   const menuItem: React.FC<MenuItemInterface> = ({ label, url }) => (

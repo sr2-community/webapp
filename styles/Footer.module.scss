@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 12px;
+  &__col {
+    flex: 1;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
